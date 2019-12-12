@@ -14,7 +14,6 @@ private fun prompt(msg : String) : String {
 }
 
 fun main(args: Array<String>) {
-    println("Hello World!")
     val start = prompt("Enter a start path") //example: C:\documents
     val glob = prompt("Enter a glob pattern") //example: glob:*.txt
     var destination =  prompt("Enter a backup directory path")
